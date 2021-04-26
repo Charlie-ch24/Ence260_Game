@@ -1,0 +1,34 @@
+--------------------
+      BOMBER!
+--------------------
+
+A game for two players, to be played on the UCFunKit.
+Created by Charlie Hunter and Euan Robinson.
+Last modified: 20 October 2020
+
+HOW TO INSTALL:
+    Compile and make the source files on both UCFunKits with the bash command 'make program'.
+    Both displays should now display the word "BOMBER".
+
+HOW TO PLAY:
+    The game has three phases - the bombing phase, the defusing phase, and the scoring phase.
+    In the bombing phase, each player has nine bombs, which are hidden in the 'grid' (represented by the LED matrix). Both players share the same grid.
+    In the defusing phase, find and defuse as many of the other player's bombs within 12 rounds. You can't see where your bombs were placed, so be careful!
+    The player with the most surviving bombs wins.
+
+MOVEMENT:
+    Move the navswitch to move the player cursor, which is shown as a light on the LED matrix.
+    Press the navswitch to place a bomb during the bombing phase, or defuse a bomb during the defusing phase.
+
+GAMEPLAY:
+    Both displays show 'BOMBER'.
+    The player who presses the navswitch first is designated as player 1.
+
+    BOMBING: Place your nine bombs. When your ninth bomb is placed, your blue light will flash to show that you are ready.
+    Wait until both players are ready. You cannot place your bomb in the same place twice.
+
+    DEFUSING: Each player has 12 turns to remove as many of their opponent's bombs as possible, with turns happening alternately. Player 1 starts.
+    If a player's bomb has been hit (including their own), their blue LED will light up.
+    
+    SCORING: When the game end, press the navswitch to show the score. The player with the most surviving bombs has the higher score, and wins!
+    Press the navswitch again to restart.
